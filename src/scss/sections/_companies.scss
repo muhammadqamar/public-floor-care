@@ -1,0 +1,127 @@
+@use "sass:color" as c;
+@use "../functions" as *;
+
+.logo_slider_section_heading {
+  max-width: 1029px;
+  margin: 0 auto 59px;
+
+  @media (max-width: 600px) {
+    margin: 0 auto 40px;
+  }
+
+  @media (max-width: 1028px) {
+    padding: 0 24px;
+  }
+
+  .slider_main_heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 0;
+    padding-left: 19px;
+    border-left: 7px solid #fb4b1e;
+  }
+}
+
+.section--companies.companies {
+  max-width: 1029px;
+  margin: 0 auto 59px;
+  padding: 0 131px;
+  @media (max-width: 600px) {
+    margin: 0 auto 40px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 56px;
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    padding: 0 50px;
+  }
+
+  .splide__track {
+    .splide__list {
+      align-items: center;
+
+      .splide__slide {
+        width: auto !important;
+      }
+    }
+  }
+  .splide__nav {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    .splide__arrows {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .splide__arrow--prev {
+        &:before {
+          background-image: url("../images/left-arrow.svg");
+        }
+
+        @media (max-width: 1028px) {
+          margin-left: 8px;
+        }
+      }
+
+      .splide__arrow--next {
+        &:before {
+          background-image: url("../images/right-arrow.svg");
+        }
+        @media (max-width: 1028px) {
+          margin-right: 8px;
+        }
+      }
+
+      .splide__arrow {
+        pointer-events: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 20px;
+        width: 60px;
+        height: 38px;
+        border: none;
+        background: #f15a22;
+        border-radius: 4px;
+        display: inline-flex;
+        cursor: pointer;
+        transition: opacity 0.2s ease;
+        position: relative;
+
+        @media (max-width: 768px) {
+          width: 40px;
+          height: 28px;
+          padding: 10px;
+        }
+
+        &:before {
+          content: "";
+          width: 20px;
+          height: 18px;
+          position: absolute;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+
+          @media (max-width: 768px) {
+            width: 17px;
+            height: 14px;
+          }
+        }
+
+        svg {
+          display: none;
+        }
+      }
+    }
+  }
+}

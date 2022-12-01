@@ -1,0 +1,123 @@
+.vacuum__buying__main_section {
+  max-width: 1028px;
+  margin: 0 auto 85px;
+  @media (max-width: 1028px) {
+    padding: 0 24px;
+  }
+  @media (max-width: 600px) {
+    margin: 0 auto 40px;
+  }
+
+  .vacuum-section {
+    width: 100%;
+    min-height: 191px;
+    margin-bottom: 78px;
+    background: #d9dcff;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: -webkit-fill-available;
+      height: -webkit-fill-available;
+      background-image: url("../images/vacuum-bg-color-shape.svg");
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      background-size: auto;
+
+      @media (max-width: 992px) {
+        width: inherit;
+        background-size: contain;
+      }
+    }
+
+    .vacuum_detail {
+      padding: 53px 0 39px 65px;
+
+      @media (max-width: 768px) {
+        padding: 30px 24px;
+      }
+      .vacuum_heading {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        letter-spacing: -0.02em;
+        color: #000000;
+
+        & span {
+          display: flex;
+          gap: 16px;
+          align-items: center;
+          .arrow_right_icon {
+            width: 36.96px;
+            height: 34px;
+          }
+        }
+      }
+    }
+    .cauum-desk-img {
+      width: 487px;
+      height: 172px;
+      position: relative;
+      z-index: 1;
+
+      @media (max-width: 992px) {
+        display: none;
+      }
+    }
+    .cauum-mob-img {
+      width: 487px;
+      height: auto;
+      position: relative;
+      z-index: 1;
+      margin: 0 0 30px auto;
+      @media (min-width: 992px) {
+        display: none;
+      }
+    }
+  }
+
+  .find_your_type {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    @media (max-width: 600px) {
+      gap: 16px;
+    }
+
+    .find-down-arrow {
+      width: 69px;
+      height: 63px;
+    }
+
+    .find_type_detail {
+      width: 100%;
+
+      .find-type-main {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -0.01em;
+        color: #000000;
+        margin-bottom: 8px;
+      }
+      .find-type-sub {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: -0.01em;
+        color: #000000;
+      }
+    }
+  }
+}
