@@ -122,16 +122,15 @@
         display: flex;
         align-items: center;
         gap: 12px;
+        justify-content: space-around;
 
         @media (max-width: 699px) {
           width: 100%;
           padding-right: 16px;
-          justify-content: space-around;
         }
         @media (min-width: 699px) and (max-width: 992px) {
           width: 100%;
           padding-right: 32px;
-          justify-content: space-around;
         }
 
         .fa-btn {
@@ -141,7 +140,7 @@
           align-items: center;
           padding: 10px 16px;
           gap: 10px;
-          width: auto;
+          width: -webkit-fill-available;
           height: 42px;
           background: #f15a22;
           border-radius: 4px;
