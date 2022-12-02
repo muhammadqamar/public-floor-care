@@ -1,3 +1,9 @@
+.floor-space {
+  @media (max-width: 1027px) {
+    padding: 0 24px;
+  }
+}
+
 .vacuum__buying__main_section {
   max-width: 1028px;
   margin: 0 auto 85px;

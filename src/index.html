@@ -2138,9 +2138,19 @@
   </head>
   <body>
     <include src="sections/vacuum-buying-guide.html"></include>
+    <div class="floor-space">
+      <include src="sections/performance-fan.html"></include>
+      <include src="sections/fanatic-ab.html"></include>
+      <include src="sections/convenience-lover.html"></include>
+      <include src="sections/hygiene-lover.html"></include>
+      <include src="sections/pet-lover.html"></include>
+    </div>
     <include src="sections/companies-slider.html"></include>
-    <include src="sections/public-experts.html"></include>
+    <div class="floor-space">
+      <include src="sections/public-experts.html"></include>
+    </div>
     <include src="sections/look-again.html"></include>
+
     <script>
       const companiesSlider = new Splide(".section--companies", {
         type: "loop",
@@ -2151,9 +2161,14 @@
         pagination: false,
         gap: "46px",
         breakpoints: {
-          768: {
+          899: {
             perPage: 2,
             perMove: 2,
+          },
+
+          499: {
+            perPage: 1,
+            perMove: 1,
           },
         },
       });
