@@ -32,8 +32,8 @@
       position: absolute;
       bottom: 0;
       right: 0;
-      width: -webkit-fill-available;
-      height: -webkit-fill-available;
+      width: inherit;
+      height: 100%;
       background-image: url("../images/vacuum-bg-color-shape.svg");
       background-repeat: no-repeat;
       background-position: bottom right;
