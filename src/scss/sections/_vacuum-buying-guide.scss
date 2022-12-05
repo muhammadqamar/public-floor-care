@@ -3,6 +3,13 @@
     padding: 0 24px;
   }
 }
+a {
+  width: -webkit-fill-available;
+
+  @media (max-width: 992px) {
+    width: auto;
+  }
+}
 
 .vacuum__buying__main_section {
   max-width: 1028px;

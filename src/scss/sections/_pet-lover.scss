@@ -127,6 +127,7 @@
 
       @media (max-width: 499px) {
         text-align: center;
+        display: none;
       }
 
       @media (max-width: 699px) {
@@ -144,6 +145,9 @@
 
       @media (max-width: 992px) {
         justify-content: space-around;
+      }
+      @media (max-width: 499px) {
+        justify-content: center;
       }
 
       .desk-btn {
@@ -168,6 +172,7 @@
         line-height: 22px;
         letter-spacing: -0.01em;
         color: #ffffff;
+        cursor: pointer;
         @media (max-width: 499px) {
           width: auto;
         }

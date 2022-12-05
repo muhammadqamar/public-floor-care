@@ -126,6 +126,7 @@
 
       @media (max-width: 699px) {
         padding-left: 16px;
+        display: none;
       }
       @media (min-width: 699px) and (max-width: 992px) {
         padding-left: 32px;
@@ -140,6 +141,8 @@
       @media (max-width: 499px) {
         flex-direction: column;
         gap: 15px;
+
+        justify-content: center;
       }
 
       .desk-btn {
@@ -164,6 +167,7 @@
         line-height: 22px;
         letter-spacing: -0.01em;
         color: #ffffff;
+        cursor: pointer;
         & span {
           & img {
             width: 20px;
