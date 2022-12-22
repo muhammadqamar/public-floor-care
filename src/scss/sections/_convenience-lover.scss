@@ -10,7 +10,7 @@
   gap: 20px;
   overflow: hidden;
 
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     align-items: flex-start;
     flex-direction: column-reverse;
     padding: 28px 16px 0 0;
@@ -21,13 +21,13 @@
     height: auto;
     margin-left: -100px;
 
-    @media (max-width: 992px) {
+    @media (max-width: 1200px) {
       width: auto;
       margin: 30px 0 0 0;
     }
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     .desk-co {
       display: none;
     }
@@ -37,12 +37,12 @@
       width: 100% !important;
       padding-left: 16px;
     }
-    @media (min-width: 699px) and (max-width: 992px) {
+    @media (min-width: 699px) and (max-width: 1200px) {
       width: 600px !important;
       padding-left: 32px;
     }
 
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
       display: none;
     }
   }
@@ -74,7 +74,7 @@
       width: 100%;
       padding: 0 16px;
     }
-    @media (min-width: 699px) and (max-width: 992px) {
+    @media (min-width: 699px) and (max-width: 1200px) {
       width: 100%;
       padding: 0 32px;
     }
@@ -84,16 +84,16 @@
       align-items: center;
       justify-content: space-around;
       margin-bottom: 32px;
-      @media (max-width: 499px) {
+      @media (max-width: 699px) {
         flex-direction: column;
       }
 
-      @media (max-width: 992px) {
+      @media (max-width: 1200px) {
         gap: 10px;
       }
 
       .mob-btn {
-        @media (min-width: 499px) {
+        @media (min-width: 699px) {
           display: none;
         }
         display: flex;
@@ -117,14 +117,14 @@
       .co-l-img-1 {
         width: 85.37px;
         height: auto;
-        @media (max-width: 992px) {
+        @media (max-width: 1200px) {
           width: auto;
         }
       }
       .co-l-img-2 {
         width: 150px;
         height: auto;
-        @media (max-width: 992px) {
+        @media (max-width: 1200px) {
           width: auto;
         }
       }
@@ -137,7 +137,7 @@
       letter-spacing: -0.01em;
       color: #f15a22;
       margin: 0 0 11px;
-      @media (max-width: 499px) {
+      @media (max-width: 699px) {
         text-align: center;
       }
 
@@ -145,7 +145,7 @@
         padding-left: 16px;
         display: none;
       }
-      @media (min-width: 699px) and (max-width: 992px) {
+      @media (min-width: 699px) and (max-width: 1200px) {
         padding-left: 32px;
       }
     }
@@ -154,13 +154,17 @@
       display: flex;
       align-items: center;
       gap: 12px;
-      @media (max-width: 499px) {
+      @media (max-width: 699px) {
         flex-direction: column;
         justify-content: center;
       }
 
+      @media (min-width: 699px) and (max-width: 1200px) {
+        justify-content: space-around;
+      }
+
       .desk-btn {
-        @media (max-width: 499px) {
+        @media (max-width: 699px) {
           display: none !important;
         }
       }

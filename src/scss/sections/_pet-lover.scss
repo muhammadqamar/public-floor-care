@@ -9,7 +9,7 @@
   justify-content: space-between;
   gap: 20px;
 
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     align-items: flex-start;
     flex-direction: column-reverse;
     padding: 28px 16px 0 0;
@@ -18,12 +18,12 @@
   .pet-img-1 {
     width: 301px;
     height: auto;
-    @media (max-width: 992px) {
+    @media (max-width: 1200px) {
       width: auto;
     }
   }
 
-  @media (max-width: 992px) {
+  @media (max-width: 1200px) {
     .pet-desk {
       display: none;
     }
@@ -33,12 +33,12 @@
       width: 100% !important;
       padding-left: 16px;
     }
-    @media (min-width: 699px) and (max-width: 992px) {
+    @media (min-width: 699px) and (max-width: 1200px) {
       width: 600px !important;
       padding-left: 32px;
     }
 
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
       display: none;
     }
   }
@@ -63,7 +63,7 @@
   }
   .pet-section {
     width: 282px;
-    @media (max-width: 992px) {
+    @media (max-width: 1200px) {
       width: 100%;
       margin: auto;
       padding-left: 16px;
@@ -74,13 +74,13 @@
       align-items: center;
       justify-content: space-around;
       margin-bottom: 32px;
-      @media (max-width: 499px) {
+      @media (max-width: 699px) {
         flex-direction: column;
         gap: 30px;
       }
 
       .mob-btn {
-        @media (min-width: 499px) {
+        @media (min-width: 699px) {
           display: none;
         }
         display: flex;
@@ -104,7 +104,7 @@
         width: 85.37px;
         height: auto;
 
-        @media (max-width: 992px) {
+        @media (max-width: 1200px) {
           width: auto;
         }
       }
@@ -112,7 +112,7 @@
         width: 74.26px;
         height: auto;
 
-        @media (max-width: 992px) {
+        @media (max-width: 1200px) {
           width: auto;
         }
       }
@@ -125,7 +125,7 @@
       color: #f15a22;
       margin-bottom: 9px;
 
-      @media (max-width: 499px) {
+      @media (max-width: 699px) {
         text-align: center;
         display: none;
       }
@@ -133,7 +133,7 @@
       @media (max-width: 699px) {
         padding-left: 16px;
       }
-      @media (min-width: 699px) and (max-width: 992px) {
+      @media (min-width: 699px) and (max-width: 1200px) {
         padding-left: 32px;
       }
     }
@@ -143,15 +143,15 @@
       justify-content: space-between;
       gap: 12px;
 
-      @media (max-width: 992px) {
+      @media (max-width: 1200px) {
         justify-content: space-around;
       }
-      @media (max-width: 499px) {
+      @media (max-width: 699px) {
         justify-content: center;
       }
 
       .desk-btn {
-        @media (max-width: 499px) {
+        @media (max-width: 699px) {
           display: none !important;
         }
       }
@@ -173,7 +173,7 @@
         letter-spacing: -0.01em;
         color: #ffffff;
         cursor: pointer;
-        @media (max-width: 499px) {
+        @media (max-width: 699px) {
           width: auto;
         }
       }
