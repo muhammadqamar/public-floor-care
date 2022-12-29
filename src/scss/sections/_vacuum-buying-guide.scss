@@ -67,7 +67,7 @@ a {
         color: #000000;
 
         @media (max-width: 499px) {
-          font-size: 18px;
+          font-size: 16px;
           line-height: 32px;
         }
 
@@ -80,7 +80,8 @@ a {
             height: 34px;
 
             @media (max-width: 499px) {
-              width: 26px;
+              width: 16px;
+              height: 16px;
             }
           }
         }

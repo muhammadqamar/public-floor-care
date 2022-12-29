@@ -11,3 +11,9 @@
 a {
   width: auto !important;
 }
+.stick-link-btn {
+  width: 100% !important;
+  @media (max-width: 699px) {
+    width: auto !important;
+  }
+}

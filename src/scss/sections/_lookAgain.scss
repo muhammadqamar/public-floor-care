@@ -13,6 +13,9 @@
     letter-spacing: -0.05em;
     color: #fb4b1e;
     margin: 0 0 10px;
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
   }
 
   .look_one_img {
@@ -74,7 +77,7 @@
         margin: 0 0 35px;
 
         @media (max-width: 599px) {
-          font-size: 22px;
+          font-size: 20px;
           line-height: 28px;
         }
       }
