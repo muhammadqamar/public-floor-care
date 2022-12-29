@@ -1,7 +1,7 @@
 .floor-space {
-  @media (max-width: 1027px) {
-    padding: 0 24px;
-  }
+  // @media (max-width: 1027px) {
+  //   padding: 0 24px;
+  // }
 }
 a {
   width: -webkit-fill-available;
@@ -14,9 +14,9 @@ a {
 .vacuum__buying__main_section {
   max-width: 1028px;
   margin: 0 auto 85px;
-  @media (max-width: 1028px) {
-    padding: 0 24px;
-  }
+  // @media (max-width: 1028px) {
+  //   padding: 0 24px;
+  // }
   @media (max-width: 600px) {
     margin: 0 auto 40px;
   }

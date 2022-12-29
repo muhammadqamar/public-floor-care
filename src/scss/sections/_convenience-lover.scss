@@ -3,7 +3,7 @@
   min-height: 334px;
   margin: 0 auto 10px;
   background: #f7f7f7;
-  padding: 0 41px 0 0;
+  // padding: 0 41px 0 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,7 +13,8 @@
   @media (max-width: 1200px) {
     align-items: flex-start;
     flex-direction: column-reverse;
-    padding: 28px 16px 0 0;
+    // padding: 28px 16px 0 0;
+    padding: 28px 0 0;
   }
 
   .co-img-1 {

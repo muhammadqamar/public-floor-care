@@ -2,14 +2,16 @@
   max-width: 1029px;
   min-height: 465px;
   margin: 0 auto 28px;
-  padding: 34px 40px 44px;
+  // padding: 34px 40px 44px;
+  padding: 34px 0 44px;
   background-image: url("../images/public-expert-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
   @media (max-width: 768px) {
-    padding: 28px 24px 34px;
+    //   padding: 28px 24px 34px;
+    padding: 28px 0 34px;
   }
   @media (max-width: 600px) {
     margin: 0 auto 40px;

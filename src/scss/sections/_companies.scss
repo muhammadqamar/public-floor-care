@@ -9,9 +9,9 @@
     margin: 0 auto 40px;
   }
 
-  @media (max-width: 1028px) {
-    padding: 0 24px;
-  }
+  // @media (max-width: 1028px) {
+  //   padding: 0 24px;
+  // }
 
   .slider_main_heading {
     font-weight: 700;
@@ -28,17 +28,8 @@
 .section--companies.companies {
   max-width: 1029px;
   margin: 0 auto 59px;
-  padding: 0 131px;
   @media (max-width: 600px) {
     margin: 0 auto 40px;
-  }
-
-  @media (max-width: 768px) {
-    padding: 0 56px;
-  }
-
-  @media (min-width: 768px) and (max-width: 992px) {
-    padding: 0 50px;
   }
 
   .splide__track {
