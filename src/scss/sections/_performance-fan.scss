@@ -20,8 +20,11 @@
     width: 303px;
     height: auto;
     margin-top: 18px;
-    @media (max-width: 1200px) {
+    @media (min-width: 699px) and (max-width: 1200px) {
       width: auto;
+    }
+    @media (max-width: 699px) {
+      width: 300px;
     }
   }
   @media (max-width: 1200px) {
