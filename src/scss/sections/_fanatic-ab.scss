@@ -117,16 +117,24 @@
           width: 85.37px;
           height: 142.6px;
 
-          @media (max-width: 1200px) {
+          @media (min-width: 699px) and (max-width: 1200px) {
             width: auto;
+            height: auto;
+          }
+          @media (max-width: 699px) {
+            width: 135px;
             height: auto;
           }
         }
         .fa-b-img-2 {
           width: 74.26px;
           height: 124.04px;
-          @media (max-width: 1200px) {
+          @media (min-width: 699px) and (max-width: 1200px) {
             width: auto;
+            height: auto;
+          }
+          @media (max-width: 699px) {
+            width: 135px;
             height: auto;
           }
         }

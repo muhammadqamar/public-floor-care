@@ -81,8 +81,11 @@
       height: auto;
       margin-bottom: 48px;
 
-      @media (max-width: 1200px) {
+      @media (min-width: 699px) and (max-width: 1200px) {
         width: auto;
+      }
+      @media (max-width: 699px) {
+        width: 251px;
       }
     }
 
